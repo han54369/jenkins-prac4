@@ -1,7 +1,7 @@
 node {
     stage('Checkout') {
         // 본인의 GitHub 레포지토리 주소로 변경 필요
-        git url: 'https://github.com/본인계정/레포지토리.git', branch: 'main', credentialsId: 'github-checkout-token'
+        git url: 'https://github.com/han54369/jenkins-prac4.git', branch: 'main', credentialsId: 'github-checkout-token'
     }
 
     stage('Build') {
